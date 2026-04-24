@@ -7,7 +7,6 @@ ctk.set_default_color_theme("blue")
 
 ARCHIVO = "usuarios.txt"
 
-# Si no existe el archivo, lo crea con usuarios de prueba
 if not os.path.exists(ARCHIVO):
     with open(ARCHIVO, "w", encoding="utf-8") as f:
         f.write("admin,1234\n")
